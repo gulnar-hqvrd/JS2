@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let surName = "admin";
+        // let password = "1234";
+        // let userName = prompt("Kullanici adini yazin")
+        // let password = prompt("Kullanici password yazin")
+
+
+//         if(userName == "admin"){
+//       alert("Tebrikler,Dogrudur")
+//         }
+//         else{
+// alert("DUZ DEYIL")
+//         }
+
+
+//EXAMPLE 1)) 0 -100 aras; eded daxil edecek eger eded onlarin arasindadirsa duzgundur desin deyilse duzgun deyil desin
+            // let number = +prompt("Ededi daxil edin")
+            // let message = "";
+
+            // if (isNaN(number)){
+            //     message = "Lufter reqem yaz";
+            // }
+            // else if(number >=0 && number <=100){
+            //     message = "Duzgundur"
+            // }
+
+            // else{
+            //     message = "Duzgun deyil"
+            // }
+
+            // alert(message)
+
+
+
+//EXAMPLE 2)) Kullanici bir reqem daxil etsin eger tek idisi eger cutduse cut olsun
+
+            // let number = +prompt("Reqemi daxil edir")
+
+            // if (isNaN(number)){
+            //     alert ("Lufter reqem yaz");
+            // }
+            // else if(number % 2==0){
+            //     alert("Cutdur")
+            // }
+
+            // else{
+            //     alert("Tekdir")
+            // }
+
+//EXAMPLE 3)) 
+            // let usernam = "admin";
+            // let password = "123";
+            // if (usernam == "admin"){
+            //     if(password == "123"){
+            //         alert("Giris etdiniz")
+            //     }
+            //     else{
+            //         alert("SIfreniz duzgun deyil")}
+            // }
+
+            // else{
+            //     alert("Giris etmediniz")
+            // }
+
+
+    //         if(usernam == "admin" && password == "123"){
+    //             alert("giris etdiniz")
+    //         }
+
+    //         else{
+    //             alert("giris ede bilmediniz")
+    //         }
+
+
+//EXAMPLE 4)) 
+
+            // let number = +prompt("Ededi daxil edin")
+
+            //  if (isNaN(number)){
+            //     alert ("Reqem yaz");
+            // }
+
+            // else if (number < 0){
+            //     alert("0- dan kicik eded daxil etdiniz")
+            // }
+
+            // else if (number > 100){
+            //     alert("100- den boyuk eded daxil etdiniz")
+            // }
+
+            // else if (number >=0 && number <=30){
+            //     alert("FF")
+            // }
+
+            // else if (number >=31 && number <=50){
+            //     alert("DD")
+            // }
+
+
+            // else if (number >=51 && number <=70){
+            //     alert("CC")
+            // }
+
+
+            // else if (number >=71 && number <=84){
+            //     alert("BB")
+            // }
+
+            // else{
+            //     alert("AA")
+            // }
+
+
+            //Daha qisa nece yazmaq olar
+
+
+//             let number = +prompt("Ededi daxil edin")
+// if (isNaN(number)) {
+//     alert("Please enter a valid number")
+// }
+// else {
+//     if (number >= 0 && number <= 100) {
+//         if (number <= 30) { alert("FF"); }
+//         else if (number <= 50) { alert("DD"); }
+//         else if (number <= 70) { alert("CC"); }
+//         else if (number <= 84) { alert("BB"); }
+//         else { alert("AA"); }
+//     }
+//     else {
+//         alert("Please enter a valid number")
+//     }
+// }
+
+// else if (number < 0){
+//    alert("0- dan kicik eded daxil etdiniz")
+// }
+
+// else if (number > 100){
+//    alert("100- den boyuk eded daxil etdiniz")
+// }
+
+// else if (number >=0 && number <=30){
+//    alert("FF")
+// }
+
+// else if (number >=31 && number <=50){
+//    alert("DD")
+// }
+
+
+// else if (number >=51 && number <=70){
+//    alert("CC")
+// }
+
+
+// else if (number >=71 && number <=84){
+//    alert("BB")
+// }
+
+// else{
+//    alert("AA")
+// }
+
+
+
+//EXPAMPLE 5)) In this scenario, a user will input the name of a product, and the system will indicate which department the product is located in. The departments are categorized as follows:
+
+// Vegetable Department : for products like tomatoes, peppers, and eggplants.
+// Cosmetic Department : for items such as toothpaste, perfume, and shampoo.
+// Technology Department : for gadgets like mobile phones, computers, and sound systems.
+// If a product that isn't included in these categories is entered, the system will respond with a message: 'This product is not available in our store!' Additionally, if the user leaves the input field blank, they will be prompted to enter a product name with a message: 'Please enter a product name.'"
+
+// let product = prompt("Product daxil")
+
+// product = product.replaceAll(' ', '');
+
+
+// if(product === ""){
+// alert("Product name daxil edin")
+// }
+// else if  (product == "tomatoes" || product == "peppers" || product == "eggplants"){
+//     alert("Vegetable Departament")
+// }
+    
+// else if (product == "toothpaste" || product == "perfume" || product == "shampoo"){
+//     alert("Cosmetic Departament")
+// }
+
+// else if (product == "mobilephones" || product == "computers" || product == "soundsystems"){
+//     alert("Technology Departament")
+// }
+
+// else{
+//     alert("Bele product yoxdur")
+// }
+
+// Example 6))
+
+// let count = Number(prompt("Kitab sayi daxil edin:"));
+
+// const unitPrice = 5;
+// let total = 0;
+// let discount_rate = '';
+// let discount = 0;
+
+// if (!isNaN(count) && count > 0) {
+//     if (count <= 20) {
+//         total = (unitPrice * count) * 0.95; // %5 faiz endirim
+//         discount_rate = '%5';
+//         // discount = 0.95;
+//     }
+//     else if (count <= 50) {
+//         total = (unitPrice * count) * 0.90; // %10 faiz endirim
+//         discount_rate = '%10';
+//     }
+//     else if (count <= 100) {
+//         total = (unitPrice * count) * 0.85; // %15 faiz endirim
+//         discount_rate = '%15';
+//     }
+//     else {
+//         total = (unitPrice * count) * 0.75; // %25 faiz endirim
+//         discount_rate = '%25';
+//     }
+// }
+// else {
+//     alert("Lütfen geçerli bir sayı giriniz.");
+//     throw new Error("Lütfen geçerli bir sayı giriniz.");
+// }
+
+// let message = '';
+// message += 'Sipariş Edilen Kitap Adedi : ' + count;
+// message += 'Kitap Birim Fiyatı         : ' + unitPrice + ' AZN';
+// message += 'Ödenmesi Gereken Tutar     : ' + (count * unitPrice) + ' AZN';
+// message += 'Yapılan İndirim            : ' + discount_rate;
+// message += 'Toplam Ödenecek Tutar      : ' + total + ' AZN ';
+
+
+// let message = `
+// Sipariş Edilen Kitap Adedi     : ${count}
+// Kitap Birim Fiyatı             : ${unitPrice}
+// AZN   Ödenmesi Gereken Tutar   : ${(count * unitPrice)}
+// AZN Yapılan İndirim            : ${discount_rate}
+// Toplam Ödenecek Tutar          : ${total} AZN `;
+
+
+// let message = 'Sipariş Edilen Kitap Adedi : ' + count + '\nKitap Birim Fiyatı         : ' + unitPrice + '\nAZN   Ödenmesi Gereken Tutar     : ' + (count * unitPrice) + '\nAZN Yapılan İndirim            : ' + discount_rate + '\nToplam Ödenecek Tutar      : ' + total + ' AZN ';
+
+
+// alert(message)
+
+
+    </script>
+
+
+
+</body>
+</html>
